@@ -8,8 +8,11 @@
   z-index: 1;
   margin-top: 0;
   display: block;
+<<<<<<< HEAD
   text-decoration: none;
   color: inherit;
+=======
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
 }
 
 .quem-cuida h2 {
@@ -35,7 +38,11 @@
   margin-right: auto;
 }
 
+<<<<<<< HEAD
 .perfilProfissional {
+=======
+.dentista-card {
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
   width: 280px;
   background: #fff;
   border-radius: 8px;
@@ -44,29 +51,46 @@
   transition: transform 0.3s ease;
 }
 
+<<<<<<< HEAD
 .perfilProfissional:hover {
   transform: translateY(-5px);
 }
 
 .perfilProfissional img {
+=======
+.dentista-card:hover {
+  transform: translateY(-5px);
+}
+
+.dentista-card img {
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
   width: 100%;
   height: 350px;
   object-fit: cover;
   display: block;
 }
 
+<<<<<<< HEAD
 .perfilProfissional h3 {
+=======
+.dentista-card h3 {
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
   margin: 20px 0 10px;
   color: #333;
   font-size: 22px;
 }
 
+<<<<<<< HEAD
 .perfilProfissional p {
+=======
+.dentista-card p {
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
   color: #666;
   margin-bottom: 20px;
   font-size: 16px;
 }
 
+<<<<<<< HEAD
 .descricao{
   text-decoration: none;
   color: inherit;
@@ -77,6 +101,8 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 
+=======
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
 @media (max-width: 1200px) {
   .dentistas-container {
     gap: 20px;

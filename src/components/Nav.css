@@ -5,7 +5,11 @@
     align-items: center;
     padding: 20px 60px;
     background-color: transparent;
+<<<<<<< HEAD
     position: absolute;
+=======
+    position: fixed;
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
     width: 100%;
     z-index: 10;
     box-sizing: border-box;
@@ -24,11 +28,19 @@
     align-items: center;
   }
   
+<<<<<<< HEAD
    .logo img {
     width: 300px;
     height: auto;
     object-fit: contain;
     margin-top: -90px;
+=======
+  .logo img {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin-top: -70px;
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
     margin-left: 0px;
   }
   
@@ -36,7 +48,11 @@
     display: flex;
     align-items: center;
     margin-top: -140px;
+<<<<<<< HEAD
     margin-right: 20px;
+=======
+    margin-right: 90px;
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
   }
   
   .nav-links a {
@@ -51,6 +67,7 @@
     text-decoration: underline;
     color: #a7a5a5;
   }
+<<<<<<< HEAD
 /* pra mudar a cor do link da nav */
 
 
@@ -59,6 +76,9 @@
 }
 
 
+=======
+  
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
   /* Dropdown */
   .dropdown {
     position: relative;

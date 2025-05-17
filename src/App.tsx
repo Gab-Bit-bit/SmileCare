@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
@@ -51,3 +52,25 @@ export default function App() {
     </Router>
   );
 }
+=======
+import React from 'react';
+import Home from './pages/Home';
+import QuemCuida from './components/QuemCuida';
+import AreasDeAtuacao from './components/AreasDeAtuacao';
+import './App.css';
+import Navbar from './components/Nav';
+
+function App() {
+  return (
+    <div className="app">
+      <Navbar/>
+      <Home />
+      <QuemCuida />
+      <AreasDeAtuacao/>
+
+    </div>
+  );
+}
+
+export default App;
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822

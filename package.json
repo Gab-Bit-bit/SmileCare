@@ -11,7 +11,10 @@
     "@types/node": "^16.18.126",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+<<<<<<< HEAD
     "react-router-dom": "^7.6.0",
+=======
+>>>>>>> 5090b1c95ad606d0270edc620dc3aaf288617822
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
