@@ -39,20 +39,20 @@ export default function App() {
         <Route path="/procedimentos/invisalign" element={<Invisalign />} />
         <Route path="/procedimentos/extracao" element={<Extracao />} />
         <Route path="/procedimentos/implante" element={<Implante />} />
-        <Route path="/areas/periodontia" element={<AreaPeriodontia />} />
-        <Route path="/areas/ortodontia" element={<AreaOrtodontia />} />
+        <Route path="/procedimentos/periodontia" element={<AreaPeriodontia />} />
+        <Route path="/procedimentos/ortodontia" element={<AreaOrtodontia />} />
         <Route
-          path="/areas/proteses-e-implantes"
+          path="/procedimentos/proteses-e-implantes"
           element={<AreaProtesImplantes />}
         />
-        <Route path="/profissionais" element={<QuemCuida />} />
-        <Route path="/areas/cirurgia" element={<AreaCirugia />} />
+        <Route path="/procedimentos/cirurgia" element={<AreaCirugia />} />
         <Route path="/profissionais/dr-joao-silva" element={<DrJoaoSilva />} />
         <Route path="/profissionais/dr-mario-santos" element={<DrMarioSantos />} />
         <Route path="/profissionais/dra-ana-oliveira" element={<DraAnaOliveira />} />
         <Route path="/profissionais/dr-carlos-mendes" element={<DrCarlosMendes />} />
-        <Route path="/profissionais/dr-paula-costa" element={<DraPaulaCosta />} />
-        <Route path="/profissionais/dr-luana-conto" element={<DraLuanaDeConto />} />
+        <Route path="/profissionais/dra-paula-costa" element={<DraPaulaCosta />} />
+        <Route path="/profissionais/dra-luana-conto" element={<DraLuanaDeConto />} />
+        <Route path="/profissionais" element={<QuemCuida />} />
         <Route path="/agendamento" element={<Agendamento />} />
       </Routes>
       <Footer />

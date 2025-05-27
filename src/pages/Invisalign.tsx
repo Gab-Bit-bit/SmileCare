@@ -1,6 +1,6 @@
 import React from "react"
 import './ProcAtuacao.css';
-import invisalign from '../img/ortodontia.png';
+import invisalign from '../img/invisalign.jpg'
 export default function Invisalign(){
 
     return (

@@ -48,7 +48,7 @@ const QuemCuida: React.FC = () => {
           </div>
         </Link>
 
-        <Link to="/profissionais/dr-paula-costa" className="card-profissional">
+        <Link to="/profissionais/dra-paula-costa" className="card-profissional">
           <img src={dentista5} alt="Dra. Paula Costa" />
           <div className="card-info">
             <h3>Dra. Paula Costa</h3>
@@ -56,7 +56,7 @@ const QuemCuida: React.FC = () => {
           </div>
         </Link>
 
-        <Link to="/profissionais/dr-luana-conto" className="card-profissional">
+        <Link to="/profissionais/dra-luana-conto" className="card-profissional">
           <img src={dentista6} alt="Dra. Luana de Conto" />
           <div className="card-info">
             <h3>Dra. Luana de Conto</h3>

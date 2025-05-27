@@ -1,13 +1,13 @@
 import React from "react"
 import './ProcAtuacao.css';
-import cirugia from '../img/cirurgia.png';
+import implante from '../img/implante.jpg';
 export default function Implante(){
 
     return (
     <section className="procedimentos">
       <h2>Implante </h2>
       <div className="procedimentos2">
-      <img src={cirugia}  />
+      <img src={implante}  />
         
       <div className="textogeral">
     <h5><b>O que é?</b></h5>

@@ -1,6 +1,6 @@
 import React from "react"
 import './ProcAtuacao.css';
-import aparelho from '../img/ortodontia.png';
+import aparelho from '../img/aparelho.jpg';
 export default function Apararelhos(){
 
     return (

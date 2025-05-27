@@ -14,19 +14,19 @@ const AreasDeAtuacao: React.FC = () => {
             </h2>
             <p className="subtitulo-areas">Conheça as especialidades que oferecem o melhor cuidado para o seu sorriso.</p>
             <div className="areas-container">
-                <Link to="/areas/ortodontia" className="areas-card">
+                <Link to="/procedimentos/ortodontia" className="areas-card">
                     <img src={ortodontia} alt="Ortodontia" />
                     <p>Ortodontia</p>
                 </Link>
-                <Link to="/areas/cirurgia" className="areas-card">
+                <Link to="/procedimentos/cirurgia" className="areas-card">
                     <img src={cirurgia} alt="Cirurgia" />
                     <p>Cirurgias</p>
                 </Link>
-                <Link to="/proteses-e-implantes" className="areas-card">
+                <Link to="/procedimentos/proteses-e-implantes" className="areas-card">
                     <img src={implanteEprotese} alt="Implante e Prótese" />
                     <p>Próteses e Implantes</p>
                 </Link>
-                <Link to="/areas/periodontia" className="areas-card">
+                <Link to="/procedimentos/periodontia" className="areas-card">
                     <img src={periodontia} alt="Periodontia" />
                     <p>Periodontia</p>
                 </Link>

@@ -39,17 +39,22 @@ const Navbar: React.FC<{ onLoginClick?: () => void }> = ({ onLoginClick }) => {
         <div className="dropdown">
           <a href="#">Procedimentos</a>
           <div className="dropdown-content">
-            <Link to="/procedimentos/gengiva">Tratamentos Para Gengiva</Link>
-            <Link to="/proteses-e-implantes">Próteses e Implantes</Link>
             <div className="sub-dropdown">
-              <Link to="/areas/ortodontia" className='sub-dropdown'>Ortodontia &rsaquo;</Link>
+              <Link to="/procedimentos/gengiva">Tratamentos Para Gengiva &rsaquo;</Link>
+              <div className="sub-dropdown-content">
+                 <Link to="/procedimentos/periodontia" className='sub-dropdown'>Periodontia</Link>
+              </div>
+            </div>
+            <Link to="/procedimentos/proteses-e-implantes">Próteses e Implantes</Link>
+            <div className="sub-dropdown">
+              <Link to="/procedimentos/ortodontia" className='sub-dropdown'>Ortodontia &rsaquo;</Link>
               <div className="sub-dropdown-content">
                 <Link to="/procedimentos/aparelhos">Aparelhos</Link>
-                <a href="/procedimentos/invisalign">Invisalign</a>
+                <Link to="/procedimentos/invisalign">Invisalign</Link>
               </div>
             </div>
             <div className="sub-dropdown">
-              <Link to ="/areas/cirurgia" className='sub-dropdown'>Cirurgia &rsaquo;</Link>
+              <Link to ="/procedimentos/cirurgia" className='sub-dropdown'>Cirurgia &rsaquo;</Link>
               <div className="sub-dropdown-content">
                 <Link to ="/procedimentos/extracao">Extração</Link>
                 <Link to="/procedimentos/implante">Implante</Link>
