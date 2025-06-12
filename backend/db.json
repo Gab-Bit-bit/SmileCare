@@ -1,0 +1,71 @@
+{
+  "pacientes": {
+    "PACIENTE-7Sj1r": {
+      "id": "PACIENTE-7Sj1r",
+      "nome": "Ana",
+      "senha": "16265216830305569bd5a61a5d49c6a9b6d193f86a0307f408015d4977a74470t113/tJhLMK8NSpkThagWA==d8c9c6eebe754b53e491d59cc6cbd89486278be80ec4669c797601605e41a74c",
+      "email": "ana@ana.com",
+      "fone": "(11) 9876-3455"
+    },
+    "PACIENTE-H3r5y": {
+      "id": "PACIENTE-H3r5y",
+      "nome": "Davi Mendes",
+      "email": "Davim@teste.com",
+      "senha": "8d7a2cf02629263fb77ffb84e13d15fae7bd2f6fbd4efb40b386baa39b606dd2LaRUERH99lrme8Ah6ELvwg==1494bc12e2129c066b8cb001f1a43b2419fa9ad21999fa92c25f9e2ee3170918",
+      "fone": "(11) 99999-9999"
+    },
+    "PACIENTE-pYq75": {
+      "id": "PACIENTE-pYq75",
+      "nome": "mauricio",
+      "email": "mauricio@gmail.com",
+      "senha": "80c2c8afc5116cd9e3ef8af87fbb39ee5f21bc5e71b9f6526539a7dabd32228fP/NZhMSCjt6SaNYpPGr6kA==e1774180ef2ededa9d6e19a16eeb8955096ad032c287360efa1a1f7d8392c5f3",
+      "fone": "12323232223"
+    },
+    "PACIENTE-FUyC-": {
+      "id": "PACIENTE-FUyC-",
+      "nome": "123",
+      "email": "123@123.com",
+      "senha": "93d06ebe8c3fc6436dd613e2df53883c2b19e1750057d7201c32a2c98d92ee40F+wLJB2/2EmMX+TqlEn5LQ==0951dbd61437a92acd630e376c2e731f661cbbfb7423113c440b97925b048872",
+      "fone": "123123",
+      "telefone": "123123"
+    },
+    "PACIENTE-wGXBt": {
+      "id": "PACIENTE-wGXBt",
+      "nome": "eusoucarlos",
+      "email": "carlos123@gmail.com",
+      "senha": "cc9f466244f5e470e38cce16befed9a1f1e328c42c3fdd3e24919a4122e14d35lcqlZzIMPmS+vGpEWhrxUw==1b7aed7b4692700480d1deafb72bac721bdf2844f72cc5a97896f371fbfd703e",
+      "fone": "12321313213",
+      "telefone": "12321313213"
+    },
+    "PACIENTE-y6c-3": {
+      "id": "PACIENTE-y6c-3",
+      "nome": "maycon",
+      "email": "maycon@maycon.com",
+      "senha": "c3c4dce3a109944efbec31cbc8ac34137297d526b12f7fd0c9d469ecfd99d821KtYIrHh9379JBDlKTzCL2w==1f1e20b70036e8162e72a99a3688fba9fc6e4ab6f5e31a2502f0857792903048",
+      "fone": "12312313131",
+      "telefone": "12312313131"
+    },
+    "PACIENTE-qhbkb": {
+      "id": "PACIENTE-qhbkb",
+      "nome": "Gabriel",
+      "email": "gabideconto@gmail.com",
+      "senha": "25999949444c9b86f0c4691862ec4ac1ca7faf43b19bc9993d395caa115de6banGMMV2P97FG1CgSgLm7xMg==ad22be3762912551d63caaf467987762ac313682c63554f8b9fa110cd30a044d",
+      "fone": "11940151768",
+      "telefone": "11940151768"
+    }
+  },
+  "profissionais": {
+    "PROFISSIONAL-KMvpy": {
+      "id": "PROFISSIONAL-KMvpy",
+      "nome": "Dr. João",
+      "senha": "f376efdf3d61b12360a3f5f5508b70e19a84b8ed07c2145bf0fe815596e06e669a274/h8Ds+NxmsC7w8GJQ==399c2eb65ad84a67bf8942ba8b09a2cd9f3c63d3c6c1763f62b55d323c80667d",
+      "email": "drjoao@clinica.com",
+      "fone": "(11) 9876-3455",
+      "especialidade": "Endodontia",
+      "descricao": "Especialista em canais",
+      "cro": "56789-SP"
+    }
+  },
+  "procedimentos": {},
+  "agendamentos": {}
+}

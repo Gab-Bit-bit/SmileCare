@@ -1,0 +1,112 @@
+.agendamentos-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.agendamentos-container h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.agendamentos-lista {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.agendamento-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.agendamento-info h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.agendamento-info p {
+  color: #666;
+  margin: 0.25rem 0;
+}
+
+.status {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.status-confirmado {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-pendente {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-cancelado {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.agendamento-acoes {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.botao-cancelar,
+.botao-remarcar {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  flex: 1;
+}
+
+.botao-cancelar {
+  background-color: #dc3545;
+  color: white;
+}
+
+.botao-cancelar:hover {
+  background-color: #c82333;
+}
+
+.botao-remarcar {
+  background-color: #007bff;
+  color: white;
+}
+
+.botao-remarcar:hover {
+  background-color: #0056b3;
+}
+
+.sem-agendamentos {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.agendamentos-carregando {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 1.2rem;
+  color: #666;
+} 
